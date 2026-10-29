@@ -3,7 +3,7 @@ export default function Hero() {
     <section className="hero" id="inicio">
       <div className="hero-grid container">
         <div className="hero-copy">
-          <p className="hero-tag"><span /> Treinamento de vôlei</p>
+          <p className="hero-tag"><span /> Site fictício · projeto demonstrativo</p>
           <h1>Seu próximo nível <em>mora em quadra.</em></h1>
           <p className="hero-description">
             Treinos personalizados, técnica e metodologia para quem quer evoluir — do primeiro fundamento ao jogo avançado.
@@ -22,7 +22,7 @@ export default function Hero() {
           <div className="court-orbit court-orbit-one" />
           <div className="court-orbit court-orbit-two" />
           <div className="volleyball"><span className="volleyball-seam seam-one" /><span className="volleyball-seam seam-two" /><span className="volleyball-seam seam-three" /></div>
-          <div className="floating-tag"><span /> Treinamento de vôlei</div>
+          <div className="floating-tag"><span /> Site fictício · projeto demonstrativo</div>
           <div className="art-vertical-label">BUILT IN THE COURT</div>
           <div className="art-number">01</div>
         </div>
