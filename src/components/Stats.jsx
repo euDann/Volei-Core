@@ -6,7 +6,7 @@ const stats = [
 
 export default function Stats() {
   return (
-    <section className="stats" aria-label="Volei Core em números">
+    <section className="stats" aria-label="Vôlei Core em números">
       <div className="container stats-inner">
         <p className="stats-label">Evolução que<br />continua em jogo.</p>
         {stats.map(([value, label], index) => (

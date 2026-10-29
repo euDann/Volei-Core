@@ -9,7 +9,7 @@ export default function Hero() {
             Treinos personalizados, técnica e metodologia para quem quer evoluir — do primeiro fundamento ao jogo avançado.
           </p>
           <div className="hero-actions">
-            <a className="button" href="https://wa.me/?text=Quero%20treinar%20no%20Volei%20Core" target="_blank" rel="noopener noreferrer">
+            <a className="button" href="https://wa.me/?text=Quero%20treinar%20no%20V%C3%B4lei%20Core" target="_blank" rel="noopener noreferrer">
               Quero treinar <span aria-hidden="true">↗</span>
             </a>
             <a className="text-link" href="#planos">Conheça os planos <span aria-hidden="true">↓</span></a>
@@ -27,7 +27,7 @@ export default function Hero() {
           <div className="art-number">01</div>
         </div>
       </div>
-      <div className="hero-bottom-rule"><span>VOLEI CORE</span><span>TREINAMENTO PARA EVOLUIR</span></div>
+      <div className="hero-bottom-rule"><span>VÔLEI CORE</span><span>TREINAMENTO PARA EVOLUIR</span></div>
     </section>
   );
 }

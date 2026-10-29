@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const contactUrl = 'https://wa.me/?text=Quero%20saber%20sobre%20os%20treinos%20do%20Volei%20Core';
+const contactUrl = 'https://wa.me/?text=Quero%20saber%20sobre%20os%20treinos%20do%20V%C3%B4lei%20Core';
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,9 +12,9 @@ export default function Header() {
   return (
     <header className="site-header">
       <div className="container header-inner">
-        <a className="brand" href="#inicio" aria-label="Volei Core, início" onClick={closeMenu}>
+        <a className="brand" href="#inicio" aria-label="Vôlei Core, início" onClick={closeMenu}>
           <span className="brand-mark">VC</span>
-          <span className="brand-name">VOLEI <strong>CORE</strong></span>
+          <span className="brand-name">VÔLEI <strong>CORE</strong></span>
         </a>
 
         <button
