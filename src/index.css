@@ -73,12 +73,17 @@ h1 em, h2 em { color: var(--blue-bright); font-style: normal; }
 .seam-one { top: 10%; left: -57%; width: 160%; height: 75%; transform: rotate(46deg); }
 .seam-two { top: -60%; left: 11%; width: 90%; height: 170%; transform: rotate(43deg); }
 .seam-three { top: 25%; left: 15%; width: 140%; height: 68%; border-color: #174eaa; transform: rotate(-50deg); opacity: .82; }
+.floating-tag { display: none; position: absolute; z-index: 3; right: 2%; bottom: 13%; align-items: center; gap: 9px; padding: 9px 14px; border: 1px solid rgba(255,255,255,.14); border-radius: 999px; background: rgba(5,9,16,.78); color: #f1f5fc; font-size: 9px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; box-shadow: 0 12px 35px rgba(0,0,0,.28); backdrop-filter: blur(12px); animation: badge-float 4.5s ease-in-out infinite; }
+.floating-tag > span { width: 6px; height: 6px; flex: 0 0 6px; border-radius: 50%; background: var(--blue-bright); box-shadow: 0 0 11px var(--blue-bright); }
+@keyframes badge-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
 .art-vertical-label { position: absolute; top: 35%; right: 0; color: #8ea2bf; font-size: 9px; font-weight: 800; letter-spacing: .22em; writing-mode: vertical-rl; }
 .art-number { position: absolute; right: 4%; bottom: 2%; color: rgba(255,255,255,.055); font-family: 'Barlow Condensed', sans-serif; font-size: clamp(120px, 18vw, 230px); font-weight: 900; line-height: .8; }
 .hero-bottom-rule { position: absolute; right: max(28px, calc((100% - var(--container)) / 2)); bottom: 20px; left: max(28px, calc((100% - var(--container)) / 2)); display: flex; justify-content: space-between; padding-top: 12px; border-top: 1px solid var(--line); color: #77869a; font-size: 8px; font-weight: 800; letter-spacing: .18em; }
 
 @media (min-width: 1100px) {
   .volleyball { width: min(75%, 380px); }
+  .hero-copy > .hero-tag { visibility: hidden; }
+  .floating-tag { display: inline-flex; }
 }
 
 .stats { border-bottom: 1px solid var(--line); background: #0a0f17; }

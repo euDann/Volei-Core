@@ -22,6 +22,7 @@ export default function Hero() {
           <div className="court-orbit court-orbit-one" />
           <div className="court-orbit court-orbit-two" />
           <div className="volleyball"><span className="volleyball-seam seam-one" /><span className="volleyball-seam seam-two" /><span className="volleyball-seam seam-three" /></div>
+          <div className="floating-tag"><span /> Treinamento de vôlei</div>
           <div className="art-vertical-label">BUILT IN THE COURT</div>
           <div className="art-number">01</div>
         </div>
