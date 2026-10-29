@@ -15,7 +15,7 @@
   --white: #f6f8fb;
   --muted: #9daabc;
   --line: rgba(255, 255, 255, .12);
-  --container: 1200px;
+  --container: 1600px;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -76,6 +76,10 @@ h1 em, h2 em { color: var(--blue-bright); font-style: normal; }
 .art-vertical-label { position: absolute; top: 35%; right: 0; color: #8ea2bf; font-size: 9px; font-weight: 800; letter-spacing: .22em; writing-mode: vertical-rl; }
 .art-number { position: absolute; right: 4%; bottom: 2%; color: rgba(255,255,255,.055); font-family: 'Barlow Condensed', sans-serif; font-size: clamp(120px, 18vw, 230px); font-weight: 900; line-height: .8; }
 .hero-bottom-rule { position: absolute; right: max(28px, calc((100% - var(--container)) / 2)); bottom: 20px; left: max(28px, calc((100% - var(--container)) / 2)); display: flex; justify-content: space-between; padding-top: 12px; border-top: 1px solid var(--line); color: #77869a; font-size: 8px; font-weight: 800; letter-spacing: .18em; }
+
+@media (min-width: 1100px) {
+  .volleyball { width: min(75%, 380px); }
+}
 
 .stats { border-bottom: 1px solid var(--line); background: #0a0f17; }
 .stats-inner { display: grid; min-height: 132px; grid-template-columns: 1.2fr repeat(3, 1fr); align-items: center; }
